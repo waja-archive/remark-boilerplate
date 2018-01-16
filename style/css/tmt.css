@@ -1,0 +1,72 @@
+/* TMT */
+/* Use local font
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i);
+*/
+@font-face{
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansPro-Regular.ttf');
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: #575756;
+}
+h1 {
+  color: #0069b4 !important;
+  text-transform: uppercase;
+}
+h2 {
+  color: #009ed4 !important;
+}
+h1, h2, h3 {
+  font-weight: 300;
+  line-height: 1em;
+}
+li p { line-height: 1.2em; }
+.red { color: #f59c00; }
+a, a > code {
+  color: rgb(245, 156, 0);
+}
+code {
+  background: #dadada;
+}
+.remark-code, .remark-inline-code { font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"}
+.remark-code-line-highlighted     { background-color: #878787; }
+.inverse {
+  background: #009ed4;
+  color: #dadada;
+  text-shadow: 0 0 20px #878787;
+}
+.inverse h1, .inverse h2 {
+  color: #ffffff !important;
+  line-height: 1em;
+}
+/* Slide-specific styling */
+#slide-how .slides .first, #slide-how .slides .second {
+  -moz-box-shadow: 0 0 10px #878787;
+  -webkit-box-shadow: 0 0 10px #878787;
+  box-shadow: 0 0 10px #878787;
+}
+/* Two-column layout */
+.left-column {
+  color: #878787;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #575756;
+}
+/* Footer layout */
+.remark-slide-number {
+  background-color: #0069b4;
+  opacity: 1;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: right;
+  padding: 8px 20px;
+  color: #ffffff;
+  font-size: 0.8em;
+  background-image: url(/style/img/tmt_footer.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: auto 30px;
+}
